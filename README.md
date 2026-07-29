@@ -67,7 +67,7 @@ A web-based Admin Panel allows regulatory content updates without developer inte
 - `/thesis` — full thesis document
 - `/survey` — needs-assessment survey instrument and summary data (45 SME owners)
 - `/design` — Figma prototypes / system architecture
-- `/BizComplianceNG` — [application repository](link)
+- `/BizComplianceNG` — [application repository][(link)](https://drive.google.com/file/d/1xQt3BjKtpYZtdDAY3rQ-oRQ8t0BQZnPG/view?usp=drive_link)
 
 ## Related Work
 
