@@ -1,8 +1,8 @@
 # Development of a Mobile Application for Enhancing Tax Awareness and Business Compliance Among Nigerian SMEs
 
-*Undergraduate Thesis — B.Sc. Software Engineering, Veritas University, Abuja*
-*Author: Anigbogu Olivia Nneka (VUG/SEN/22/7074) · Supervisor: Dr. Chibueze Valentine Ikpo*
-*May 2026*
+**Undergraduate Thesis — B.Sc. Software Engineering, Veritas University, Abuja**
+Author: Anigbogu Olivia Nneka (VUG/SEN/22/7074) · Supervisor: Dr. Chibueze Valentine Ikpo
+May 2026
 
 ## Overview
 
@@ -29,23 +29,23 @@ This research designed, built, and evaluated **BizCompliance NG** — a cross-pl
 
 ## System
 
-BizCompliance NG is built on **Flutter, NestJS, PostgreSQL, and Prisma ORM**, and implements eight functional modules:
+BizCompliance NG is built on Flutter, NestJS, PostgreSQL, and Prisma ORM, and implements eight functional modules:
 
-- User authentication
-- Six-step business onboarding with automated compliance task generation
-- Real-time compliance score dashboard
-- Task management with step-by-step guidance
-- Digital document management
-- **Ajuri** — a rule-based compliance assistant
-- Tax calculator (VAT, PAYE, Company Income Tax, Education Tax)
-- Push notification deadline reminders
+1. User authentication
+2. Six-step business onboarding with automated compliance task generation
+3. Real-time compliance score dashboard
+4. Task management with step-by-step guidance
+5. Digital document management
+6. **Ajuri** — a rule-based compliance assistant
+7. Tax calculator (VAT, PAYE, Company Income Tax, Education Tax)
+8. Push notification deadline reminders
 
 A web-based Admin Panel allows regulatory content updates without developer intervention.
 
 ## Results
 
-- 23 functional test cases, **100% pass rate**
-- API response times averaging **under 800ms**
+- 23 functional test cases, 100% pass rate
+- API response times averaging under 800ms
 - No critical issues identified in expert review
 
 ## Contributions
@@ -64,15 +64,30 @@ A web-based Admin Panel allows regulatory content updates without developer inte
 
 ## Repository Contents
 
-- `/thesis` — full thesis document
-- `/survey` — needs-assessment survey instrument and summary data (45 SME owners)
-- `/design` — Figma prototypes / system architecture
-- `/BizComplianceNG` — [application repository][(link)](https://drive.google.com/file/d/1xQt3BjKtpYZtdDAY3rQ-oRQ8t0BQZnPG/view?usp=drive_link)
+- `/thesis` — full thesis document (PDF)
+- `/data` — de-identified needs-assessment survey data (n = 45 SME owners), with timestamps and email addresses removed
+- `/screenshots` — application screenshots (admin panel, mobile app, Postman API logs, Prisma schema)
+
+## Application
+
+The mobile application (Flutter) and backend (NestJS) source code is maintained in a **private repository**, in line with final-year-project submission requirements.
+
+Demo materials:
+- [Admin Panel Demo](https://drive.google.com/file/d/1xQt3BjKtpYZtdDAY3rQ-oRQ8t0BQZnPG/view?usp=sharing)
+- [Mobile App Demo](https://drive.google.com/file/d/1hAH9DQQTtC-0wcHwc-nWMmENRFYNy00u/view?usp=drive_link)
+
+## Application Screenshots
+
+*Screenshots below are drawn from `/screenshots/app`. <!-- TODO: replace filenames with the actual images once confirmed --> *
+
+| Registration | Onboarding | Dashboard |
+|---|---|---|
+| ![Registration](./screenshots/app/sign_up.png) | ![Onboarding](./screenshots/app/Onboarding_1.png) | ![Dashboard](./screenshots/app/dashboard_onboarded_user_non_empty_state.png) |
 
 ## Related Work
 
-- [BizComplianceNG](link) — the application this thesis documents
-- [Human-Centred Design for Mobile Platforms Supporting Nigerian SMEs](link) — related conference paper, Veritas University SDGs International Conference 2026, under review for SCOPUS indexing
+- [BizComplianceNG](#application) — the application this thesis documents
+- *Human-Centred Design for Mobile Platforms Supporting Nigerian SMEs* — related conference paper, Veritas University SDGs International Conference 2026, under review for SCOPUS indexing
 
 ## Contact
 
